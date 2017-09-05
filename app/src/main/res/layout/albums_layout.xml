@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout style="@style/albumCardLL">
+            <LinearLayout
+                style="@style/LLContainer4AlbumNameArtist">
+                <ImageView
+                    style="@style/imageAlbumCard"
+                    android:src="@drawable/simondiazcantaycuentavol1" />
+                <TextView
+                    style="@style/titleAlbum"
+                    android:text="Cuenta y Canta Vol 1"/>
+                <TextView
+                    style="@style/artistOnAlbum"
+                    android:text="Simon Diaz"/>
+            </LinearLayout>
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:orientation="vertical">
+                //LL list of songs inside of the album
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    //LL name of the songs and number
+                    //Song #1
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="1" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Tonada del Cabrestero" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #2
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="2" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="El Alcaravan" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #3
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="3" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Pasaje del Olvido" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #4
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="4" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Tonada del Tormento" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #5
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="5" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="El Becerrito" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #6
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="6" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Garcita" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #7
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="7" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Sabana" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #8
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="8" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Mi Querencia" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #9
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="9" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Tonada de las Espigas" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #10
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="10" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Todo Este Campo es Mio" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #11
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="11" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="El Loco Juan Carabina" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #12
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="12" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Caballo Viejo" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+        <LinearLayout style="@style/albumCardLL">
+            <LinearLayout
+                style="@style/LLContainer4AlbumNameArtist">
+                <ImageView
+                    style="@style/imageAlbumCard"
+                    android:src="@drawable/gualbertoibarretoacuerpocobarde" />
+                <TextView
+                    style="@style/titleAlbum"
+                    android:text="A Cuerpo Cobarde"/>
+                <TextView
+                    style="@style/artistOnAlbum"
+                    android:text="Gualberto Ibarreto"/>
+            </LinearLayout>
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:orientation="vertical">
+                //LL list of songs inside of the album
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    //LL name of the songs and number
+                    //Song #1
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="1" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="El Mismo de Ayer" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #2
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="2" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Sentir el Mar" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #3
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="3" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Capullo de Rosa" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #4
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="4" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="El Milagroso" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #5
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="5" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Oigame Senor" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #6
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="6" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Manzanares" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #7
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="7" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Si te Vuelvo a Ver" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #8
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="8" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Montoya" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #9
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="9" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="El Zamuro" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #10
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="10" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="A Cuerpo Cobarde" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+        <LinearLayout style="@style/albumCardLL">
+            <LinearLayout
+                style="@style/LLContainer4AlbumNameArtist">
+                <ImageView
+                    android:id="@+id/imageView2"
+                    style="@style/imageAlbumCard"
+                    android:src="@drawable/chairliftsomething"/>
+                <TextView
+                    style="@style/titleAlbum"
+                    android:text="Something"/>
+                <TextView
+                    style="@style/artistOnAlbum"
+                    android:text="Chairlift"/>
+            </LinearLayout>
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:orientation="vertical">
+                //LL list of songs inside of the album
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    //LL name of the songs and number
+                    //Song #1
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="1" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Sidewalk Safari" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #2
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="2" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Wrong Opinion" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #3
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="3" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="I Belong in Your Arms" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #4
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="4" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Take it Out On Me" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #5
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="5" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Ghost Tonight" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #6
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="6" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Cool as a Fire" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #7
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="7" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Amanaemonesia" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #8
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="8" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Met Before" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #9
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="9" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Frigid Spring" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #10
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="10" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Turning" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #11
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="11" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Guilty as Charged" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+        <LinearLayout style="@style/albumCardLL">
+            <LinearLayout
+                style="@style/LLContainer4AlbumNameArtist">
+                <ImageView
+                    style="@style/imageAlbumCard"
+                    android:src="@drawable/daftpunkrandomaccessmemory" />
+                <TextView
+                    style="@style/titleAlbum"
+                    android:text="Random Access Memory"/>
+                <TextView
+                    style="@style/artistOnAlbum"
+                    android:text="Daft Punk"/>
+            </LinearLayout>
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:orientation="vertical">
+                //LL list of songs inside of the album
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    //LL name of the songs and number
+                    //Song #1
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="1" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Give Life Back to Music" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #2
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="2" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="The Game of Love" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #3
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="3" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Giorgio by Moroder" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #4
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="4" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Within" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #5
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="5" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Instant Crush" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #6
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="6" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Love Yourself to Dance" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #7
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="7" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Touch" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #8
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="8" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Get Lucky" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #9
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="9" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Beyond" />
+                    </LinearLayout>
+                    //LL name of the songs and number
+                    //Song #10
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="10" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Motherboard" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="11" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Fragments of Time" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="12" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Doin' it Right" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/LLNameofSongsOnAlbums">
+                        <TextView
+                            style="@style/TVNumbersOfSongsOnAlbums"
+                            android:text="13" />
+                        <TextView
+                            style="@style/TVNameOfSongsOnAlbums"
+                            android:text="Contact" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

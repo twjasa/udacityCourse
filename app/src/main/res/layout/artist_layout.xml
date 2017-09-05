@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="All the artist that the user has. Whe click one of the artist should shows all the albums that the user has of the artist."/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            //First Column
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+                //first artist left column
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/acdc"
+                        android:onClick="openAlbum"/>
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="AC/DC"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/chairlift"/>
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="Chairlift"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/eaglesofdeathmetal"/>
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="Eagles of Death Metal"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/gualbertoibarreto"/>
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="Gualberto Ibarreto"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/incubus"/>
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="Incubus"/>
+                </LinearLayout>
+            </LinearLayout>
+            //Second Column
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+                //first artist right column
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/bobmarley"/>
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="Bob Marley"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/daftpunk"/>
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="Daft Punk"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/fatboyslim"/>
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="Fatboy Slim"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/hotchip" />
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="Hot Chip"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/jamiroquai"/>
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="Jamiroquai"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/linearColumn">
+                    <ImageView
+                        style="@style/imageArtistCard"
+                        android:src="@drawable/simondiaz"/>
+                    <TextView
+                        style="@style/artistTextView"
+                        android:text="Simon Diaz"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

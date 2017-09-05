@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/customborder">
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/acuerpocobardetn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="A Cuerpo Cobarde"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Gualberto Ibarreto - 2:47"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/somethingtn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="Amanaemonesia"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Chairlift - 5:12"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/randomaccessmemorytn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="Beyond"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Daft Punk - 4:51"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/acuerpocobardetn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="Capullo de Rosa"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Gualberto Ibarreto - 3:52"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/randomaccessmemorytn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="Contact"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Daft Punk- 6:30"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/somethingtn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="Cool as a Fire"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Chairlift - 3:57"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/randomaccessmemorytn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="Doin' It Right"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Daft Punk - 4:11"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/cantaycuentavol1tn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="El Alcavaran"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Simon Diaz - 4:27"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/cantaycuentavol1tn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="El Becerrito"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Simon Diaz - 2:41"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/randomaccessmemorytn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="Contact"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Daft Punk - 4:00"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/somethingtn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="Cool as a Fire"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Chairlift - 4:00"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/randomaccessmemorytn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="Doin' it Right"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Daft Punk - 4:00"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/cantaycuentavol1tn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="El Alcavaran"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Simon Diaz - 4:00"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/cantaycuentavol1tn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="El Becerrito"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Simon Diaz - 4:00"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LLContainerRowSong"
+        android:layout_marginBottom="25dp">
+        <ImageView
+            style="@style/IV4SongContainer"
+            android:src="@drawable/acuerpocobardetn"/>
+        <LinearLayout
+            style="@style/LLColumnDescriptionSong">
+            <TextView
+                style="@style/TVNameSong"
+                android:text="El Milagroso"/>
+            <TextView
+                style="@style/TVNameArtistOnSong"
+                android:text="Gualberto Ibarreto - 4:00"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
